@@ -48,6 +48,11 @@
     padding: 0.5rem 1rem;
     transition: background-color 0.3s ease;
   }
+
+  #rockSpockPlay {
+    padding-bottom: 25px;
+    padding-top: 25px;
+  }
   
   button:hover {
     background-color: #0056b3;
@@ -56,4 +61,24 @@
   /* Add some spacing between the submit and refresh buttons */
   #refreshButton {
     margin-top: 1rem;
+  }
+  
+  #rockView {
+    padding-bottom: 20px;
+  }
+
+  #scissorView {
+    padding-bottom: 20px;
+  }
+
+  #paperView {
+    padding-bottom: 20px;
+  }
+
+  #spockView {
+    padding-bottom: 20px;
+  }
+
+  #lizardView {
+    padding-bottom: 20px;
   }
