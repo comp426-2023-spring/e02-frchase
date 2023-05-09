@@ -42,7 +42,7 @@ function main(){
             });
               
         } else if (rplsRadio.checked) {
-          console.log("rpls was selected");
+          console.log("rpsls was selected");
           window.location.href = '/app/rpsls';
         } else {
           alert('Please select a game mode.');
@@ -60,7 +60,7 @@ function main(){
         })
       });
     
-      document.getElementById("rplsRadio").addEventListener('click', (event) => {
+      document.getElementById("rpslsRadio").addEventListener('click', (event) => {
         const views = ["rockView","scissorView","paperView","lizardView","spockView"];
         views.forEach(view => {
             document.getElementById(view).style.display ="inline";
